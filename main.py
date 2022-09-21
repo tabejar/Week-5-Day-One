@@ -51,29 +51,46 @@ print(a,b,c,d)
 
 
 #################################################sets######################################################
+#sets are a mutable data structure
+#for storing information whose elements
+#that do not repeat
+#two ways of doing sets
+set1 = set((1,1,1,2,3,4))
+print(set1)
+set2 = {1,2,3,4,4,4,4,4,4,5}
+print(set2)
+print(5 in set1)
 
 
-# Join the following sets into one, called my_set_3:
+# Join the following sets into one, 
+#called my_set_3:
 
-{1, 2, "three", "four"}
+set0 = {1, 2, "three", "four"}
 
-{"three", 4, 5}
+set1 = {"three", 4, 5}
+set3 = set0.union(set1)
+print(set3)
 
 
 # Remove a random item from the following set, using set methods.
 
 raffle = {"Rachel", "Monica", "Phoebe", "Joey", "Chandler", "Ross"}
-
-
+raffle.remove("Rachel")
+print(raffle)
 
 # Add the name Gunther to the following set, using set methods:
 
 raffle = {"Rachel", "Monica", "Phoebe", "Joey", "Chandler", "Ross"}
+raffle.add("Gunther")
+raffle.add("Peggy")
+raffle.add("Bobby")
+raffle.add("Hank")
+print(raffle)
 
 #################################################booleans######################################################
 # booleans
 # a boolean can only have 2 values -- true or False
-# my_bool = 5 > 4
+#my_bool = 5 > 4
 #print(my_bool)
 
 # > greater
@@ -84,25 +101,34 @@ raffle = {"Rachel", "Monica", "Phoebe", "Joey", "Chandler", "Ross"}
 # != different or not equal to
 
 # you can also construct booleans to see if values ar in a variable or not found
-# my_ bool = 5 in my_list
-# my_bool = 5 not in my_list
+#my_list = [1,2,3,4,5]
+#my_bool = 5 in my_list
+#my_bool2 = 5 not in my_list
+my_num = 54
+my_num2 = 2223
+my_result = my_num2 == my_num
+print(my_result)
 
 # so we can see if we can make logical decisions if something is true or not
-# var1 = True
-# var2 = False
-# print(type(var1))
-# print(var1)
+var1 = True
+var2 = False
+print(type(var1))
+print(var1)
 
-# list = [1,2,3,4,5,6]
-# control = 5 in list
-# print(type(control))
-# print(control)
+list = [1,2,3,4,5,6]
+control = 5 in list
+print(type(control))
+print(control)
 
 # Booleans Practice
 
 # Make a comparison that returns a boolean and store the result (True/False) in a variable called test
 
 # Check if 17834/34 is greater than 87*56 and print the boolean result to the screen using print()
+num1 = 17834/34
+num2 = 87*56
+result = num1 >= num2
+print(result)
 
 # Check if the square root of 25 is equal to 5 and display the result (boolean) on the screen using print
 
