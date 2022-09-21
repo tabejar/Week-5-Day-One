@@ -146,12 +146,13 @@ employee = {'first_name': 'steven',
              'height': 6}
 print(employee['height'])
 
-warrior = {'made_by': 'hbomax',
-          'release_date': 2018,
-          'budget': '24million',
-          'rotten_tomatoes_scores': 'fresh'}
-print(warrior['release_date'])
-print(warrior['budget'])
+# warrior = {'made_by': 'hbomax',
+#           'release_date': 2018,
+#           'budget': '24million',
+#           'rotten_tomatoes_scores': 'fresh'}
+# warrior['score '] = 78
+# print(warrior.items())
+# print(warrior.values())
 
 #challenge 1
 # Create a dictionary called my_dict that stores the following information about a person:
@@ -160,6 +161,11 @@ print(warrior['budget'])
 # age: 35
 # occupation: Journalist
 # The names of the keys and values must be equal to the ones indicated above.
+my_dict = {'firstname': 'Karen',
+          'lastname': 'Jurgens',
+          'age': 35,
+          'job': 'Journalist',}
+print(my_dict.items())
 
 #challenge 2:
 # Use print to returns the second item of the list called points2, inside the following dictionary.
